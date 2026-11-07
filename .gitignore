@@ -1,0 +1,42 @@
+# Claude Code internals
+.agents/
+.hooks/
+.skills/
+.plugins/
+.cache/
+.state/
+.sessions/
+.telemetry/
+.remember/
+.backups/
+
+# Credentials & secrets
+.credentials.json
+.credentials.lock
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.npmrc
+.yarnrc
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
